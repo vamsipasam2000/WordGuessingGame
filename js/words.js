@@ -212,92 +212,311 @@ let wordList5=[
         
     },
     {
-        word: "Red and blue wall-crawler",
-        hint: "spidey"
+        word: "spidey",
+        hint: "Red and blue wall-crawler"
         
     },
     {
-        word: "Wakandan superhero and king",
-        hint: "tchalla"
+        word: "tchalla",
+        hint: "Wakandan superhero and king"
         
     },
     {
-        word: "Green, gamma-powered giant",
-        hint: "hulk"
+        word: "hulk",
+        hint: "Green, gamma-powered giant"
         
     },
     {
-        word: "Sorcerer Supreme",
-        hint: "strange"
+        word: "strange",
+        hint: "Sorcerer Supreme"
         
     },
     {
-        word: "Mutant with optic blasts",
-        hint: "cyclo"
+        word: "cyclo",
+        hint: "Mutant with optic blasts"
         
     },
     {
-        word: "Norse trickster and mischief-maker",
-        hint: "loki"
+        word: "loki",
+        hint: "Norse trickster and mischief-maker"
         
     },
     {
-        word: "Feline superheroine with claws",
-        hint: "logan"
+        word: "logan",
+        hint: "Feline superheroine with claws"
         
     },
     {
-        word: "Super-soldier from World War II",
-        hint: "cap"
+        word: "cap",
+        hint: "Super-soldier from World War II"
         
     },]
 
-let wordList6=[{
-    word: "tenet",
-    hint: "Nolan Movie"
-    },
-{
-    word: "batman",
-    hint: "super hero"
-    
-},]
 
-let wordList7=[{
-    word: "tenet",
-    hint: "Nolan Movie"
-    },
-{
-    word: "batman",
-    hint: "super hero"
-    
-},]
+//Rahul's words 
 
-let wordList8=[{
-    word: "tenet",
-    hint: "Nolan Movie"
+//DC
+let wordList6=[
+    {
+        word: "batman",
+        hint: "The Dark Knight"
     },
-{
-    word: "batman",
-    hint: "super hero"
-    
-},]
+    {
+        word: "superman",
+        hint: "Man of Steel"
+    },
+    {
+        word: "wonderwoman",
+        hint: "Amazonian warrior princess"
+    },
+    {
+        word: "flash",
+        hint: "Speedster in a red suit"
+    },
+    {
+        word: "hal",
+        hint: "Green Lantern with willpower"
+    },
+    {
+        word: "aquaman",
+        hint: "King of Atlantis"
+    },
+    {
+        word: "joker",
+        hint: "The Clown Prince of Crime"
+    },
+    {
+        word: "zatanna",
+        hint: "Mistress of Magic"
+    },
+    {
+        word: "catwoman",
+        hint: "Gotham's cat burglar"
+    },
+    {
+        word: "dickgrayson",
+        hint: "Boy Wonder"
+    },
+]
 
-let wordList9=[{
-    word: "tenet",
-    hint: "Nolan Movie"
-    },
-{
-    word: "batman",
-    hint: "super hero"
-    
-},]
 
-let wordList10=[{
-    word: "tenet",
-    hint: "Nolan Movie"
+//ANIME
+
+let wordList7=[
+    {
+        word: "naruto",
+        hint: "7th Hokage"
     },
-{
-    word: "batman",
-    hint: "super hero"
-    
-},]
+    {
+        word: "luffy",
+        hint: "Pirate captain with a straw hat"
+    },
+    {
+        word: "light",
+        hint: "Shinigami who loves apples"
+    },
+    {
+        word: "edward",
+        hint: "Alchemist searching for the Philosopher's Stone"
+    },
+    {
+        word: "eva",
+        hint: "Giant robot pilot"
+    },
+    {
+        word: "sakura",
+        hint: "Magical girl with pink hair"
+    },
+    {
+        word: "yusuke",
+        hint: "Spirit detective with a green jacket"
+    },
+    {
+        word: "goku",
+        hint: "Saiyan warrior from Planet Vegeta"
+    },
+    {
+        word: "zoro",
+        hint: "Pirate swordsman with green hair"
+    },
+    {
+        word: "spike",
+        hint: "Bounty hunter in a yellow jumpsuit"
+    },
+]
+
+//NARUTO
+let wordList8=[
+    {
+        word: "naruto",
+        hint: "7th Hokage"
+    },
+    {
+        word: "sasuke",
+        hint: "Sharingan user and last Uchiha"
+    },
+    {
+        word: "hinata",
+        hint: "Queen of huga clan"
+    },
+    {
+        word: "jiraya",
+        hint: "Legendary Sannin with white hair"
+    },
+    {
+        word: "kankuro",
+        hint: "Puppet master from the Sand Village"
+    },
+    {
+        word: "deidara",
+        hint: "Akatsuki member with clay explosives"
+    },
+    {
+        word: "guy",
+        hint: "Master of the Eight Gates"
+    },
+    {
+        word: "katsuya",
+        hint: "Tsunade's slug summon"
+    },
+    {
+        word: "shukaku",
+        hint: "Tailed Beast sealed within Gaara"
+    },
+    {
+        word: "kakashi",
+        hint: "Anbu captain with a mask"
+    },
+]
+
+//ONEPEICE
+let wordList9=[
+    {
+        word: "luffy",
+        hint: "Pirate captain with a straw hat"
+    },
+    {
+        word: "zoro",
+        hint: "Pirate swordsman with green hair"
+    },
+    {
+        word: "nami",
+        hint: "Navigator and cartographer"
+    },
+    {
+        word: "sanji",
+        hint: "strawhat crew cook"
+    },
+    {
+        word: "usopp",
+        hint: "long nose sniper"
+    },
+    {
+        word: "robin",
+        hint: "multiple hands historian"
+    },
+    {
+        word: "chopper",
+        hint: "reindeer doctor"
+    },
+    {
+        word: "brook",
+        hint: "musician with skeleton body"
+    },
+    {
+        word: "franky",
+        hint: "cyborg"
+    },
+    {
+        word: "jinbe",
+        hint: "Fish-man warrior with tattoos"
+    },
+]
+
+//NBA
+let wordList10=[
+    {
+        word: "lebron",
+        hint: "The King of the Lakers"
+    },
+    {
+        word: "curry",
+        hint: "Splash Brother with a deadly three-point shot."
+    },
+    {
+        word: "giannis",
+        hint: "The Greek Freak from the Bucks"
+    },
+    {
+        word: "harden",
+        hint: "The Beard and former Rocket"
+    },
+    {
+        word: "embiid",
+        hint: "The Process in Philadelphia"
+    },
+    {
+        word: "porzingis",
+        hint: "The Unicorn from Latvia"
+    },
+    {
+        word: "chris",
+        hint: "CP3 and Point God"
+    },
+    {
+        word: "davis",
+        hint: "The Brow and Lakers' big man"
+    },
+    {
+        word: "westbrook",
+        hint: " Mr.Triple-Doublein Washington"
+    },
+    {
+        word: "jokic",
+        hint: "The Joker from Denver."
+    },
+]
+
+//FOOD
+let wordList11=[
+    {
+        word: "lasgna",
+        hint: "Italian dish with layers of pasta, cheese, and sauce"
+    },
+    {
+        word: "sushi",
+        hint: "Japanese dish of vinegared rice with seafood and vegetables"
+    },
+    {
+        word: "nachos",
+        hint: "Mexican tortilla dish with cheese and various toppings"
+    },
+    {
+        word: "pbj",
+        hint: "Classic American sandwich with peanut butter and jelly"
+    },
+    {
+        word: "brie",
+        hint: "Creamy French cheese often used in desserts"
+    },
+    {
+        word: "carbonora",
+        hint: "Italian pasta dish with bacon, eggs, and cheese"
+    },
+    {
+        word: "chowmein",
+        hint: "Popular Chinese dish made with stir-fried noodles"
+    },
+    {
+        word: "roti",
+        hint: "Indian flatbread made from chickpea flour"
+    },
+    {
+        word: "paella",
+        hint: "Spanish rice dish often flavored with saffron"
+    },
+    {
+        word: "biryani",
+        hint: "Indian dish of rice with meat or vegetables, flavored with saffron or turmeric"
+    },
+]
